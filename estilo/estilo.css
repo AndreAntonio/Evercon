@@ -1,0 +1,674 @@
+
+/*
+
+B'DAZZLED BLUE:#2E4F8F;
+TUFTS BLUE(Degrade):#3F88C5;
+BLACK OLIVE:#393E41;
+PRINCETON ORANGE:#FA7921;
+ISABELLINE:#F6F7EB
+
+*/
+
+@font-face { font-family: fonte; src:url(../Fonts/OpenSans-Regular.ttf); }
+
+
+html, body{
+    
+	height: 120%;
+	padding: 0;
+	margin:0;
+        font-family: 'Alegreya Sans SC', sans-serif;
+}
+#container{
+	background-color: #d0d0d0;
+	width: 100%;
+	height: 120%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+header{
+	background-color: #2E4F8F;
+	height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+}
+
+#main1{
+	background-color: #2E4F8F;
+	height: 45%;
+}
+
+#main1 nav{
+	background-color: #2E4F8F;
+        border-style: solid;
+        border-color:  #F6F7EB;
+        border-left:0px; 
+        border-right:0px;
+        border-top:0px; 
+	height: 20%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.index_nav,.quemsomos_nav, .parceiros_nav, .beneficios_nav, .seguro_nav, .areacliente_nav{
+    
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight:  bold;
+    background-color:#F6F7EB;
+    color:#2E4F8F;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 10;
+    
+}
+
+.index_nav:hover,.quemsomos_nav:hover , .parceiros_nav:hover, .beneficios_nav:hover, .seguro_nav:hover, .areacliente_nav:hover{
+
+    background-color:#FA7921;
+    color:#F6F7EB;
+    padding: 15px;
+    border-radius:0px; 
+    
+}
+
+
+.seguro_nav,.areacliente_nav{
+  
+    font-family: sans-serif;
+    font-weight:  bold;
+    text-decoration: none;
+    background-color:#2E4F8F;
+    color:#F6F7EB;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 10;
+    
+    
+}
+
+.container_nav1{
+    
+    background-color:#F6F7EB;
+    padding: 10px;
+    
+    
+}
+
+
+
+
+
+
+/* Dropdown Button */
+
+.dropbtn {
+   
+    background-color: #FA7921;
+    color:#F6F7EB ;
+    font-family: sans-serif;
+    font-weight:  bold;
+    padding:10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+      z-index: 10;
+}
+
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: white;
+    color:black;
+    z-index: 10;
+    
+    
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+    
+    
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    
+    border-radius: 5px;
+    display: none;
+    position:absolute;
+    left: 20px;
+    background-color: #F6F7EB;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding:5px;
+    text-decoration: none;
+    display: block;
+    z-index: 10;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+#main2{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	height: 80%;
+	width: 100%;
+}
+
+
+
+
+#main2 aside{
+	background-color: #3F88C5;
+	width: 35%;
+	min-width: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+    }
+    
+    #container_lista_icone_seguro{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        margin: 10%;
+        
+        
+    }
+    
+    
+    #container_seguro_auto, #container_seguro_residencia,#container_seguro_empresarial,#container_seguro_transporte,#container_seguro_svp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    background-color: #2E4F8F;
+    margin: 1%;
+    width: 280px;
+    height: 48px;
+    padding: 0.1%;
+    box-shadow:  3px 3px 6px #393E41;
+    text-decoration: none;
+}
+
+
+    #container_seguro_auto:hover, #container_seguro_residencia:hover,#container_seguro_empresarial:hover,#container_seguro_transporte:hover,#container_seguro_svp:hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    background-color:#2E4F8F ;
+    box-shadow: 3px 3px 6px #F6F7EB;
+    
+}
+
+
+#icone_seguro_auto, #icone_seguro_empresarial, #icone_seguro_residencia,#icone_seguro_transporte,#icone_seguro_svp{
+    
+    height: 40px;
+    width: 40px;
+    padding-top: 1%;
+    padding-left: 1%;
+   
+}
+
+#icone_seguro_transporte, #icone_seguro_svp{
+    
+    width: 80px;
+    
+    
+}
+
+#nome_seguro_auto,#nome_seguro_residencia,#nome_seguro_empresarial,#nome_seguro_transporte,#nome_seguro_svp{
+    
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-right: 3%;
+    
+    
+    
+    
+}
+
+  
+#main_aside{
+	
+        background-color: #3F88C5;
+	width: 65%;
+	overflow: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+}
+
+#main3{
+    
+    background-image: url(../img/banner.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+        
+    height: 25%;
+    width: 100%;
+
+}
+
+
+
+
+footer{    
+    
+    
+    background-color: #2E4F8F;
+    
+   
+    
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+
+.logo{
+    
+   height:220px;
+   width:220px;
+   margin: 1%;
+   margin-left: 5%;
+   
+     
+}
+
+.container_texto_cabecalho{
+    
+    margin-top: 2%;
+    margin-right: 5%;
+    
+}
+
+.texto_cabecalho{
+    
+    color: white;
+    font-size: 36px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: lighter;
+    text-shadow: 0 0 3px #3F88C5;
+    
+}
+
+.imagem_produto{
+    
+    
+  
+   box-shadow: 3px 3px 10px #393E41; 
+    height: 280px;
+    width: 500px;
+    
+    
+}
+
+.w3-btn-floating{
+    
+ position:absolute;
+ top:45%;
+ left:0;  
+       
+    
+}
+
+
+
+#container_form_contato{
+    
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    width: 30%;
+    margin-right: 3%;
+    height: 90%;
+    margin-top: 1%;
+    
+}
+
+#formulario_contato{
+    
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    
+    
+}
+
+
+
+#container_imagem_produto{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10%;
+    
+}
+
+.input_texto,.input_text_area{
+    
+    background-color: #F6F7EB;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #3F88C5;
+    border-width: 0.1px;
+    
+}
+
+.input_submit{
+    
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3F88C5;
+    border-width: 0.1px;
+    color: white;
+    font-family: sans-serif;
+    margin: 2px;
+    
+}
+
+.titulo_input{
+    
+    color: #F6F7EB;
+    font-family: fonte;
+    font-size: 12px;
+    
+    
+}
+
+#container_caixa_texto_home{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 100%;
+    width: 40%;
+    
+    
+}
+
+#caixa_texto_home{
+    
+    background-color: transparent;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    height: 85%;
+    width: 85%;
+   margin-right: 10%;
+        
+    
+}
+
+#texto_home{
+    
+    color:#F6F7EB;
+    font-size: 16px;
+    font-family: sans-serif;
+    
+    
+}
+
+
+
+.container_texto_rodape{
+    
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    
+    
+}
+
+.texto-rodape{
+    
+    color: #F6F7EB;
+    font-family: fonte;
+    font-size: 12px;
+    
+    
+}
+
+#container_texto_parceiros{
+    
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 90%;
+    width: 70%;
+    margin-top: 4%;
+    margin-left: 4%;
+   
+    
+    
+}
+
+#texto_parceiros{
+    
+    font-family: fonte;
+    color: white;
+    font-size: 14px;
+    
+    
+    
+}
+
+#container_geral_parceiros{
+    
+    width: 70%;
+    height: 90%;
+    background-color: transparent;
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+
+.container_parceiros{
+    
+    width: 20%;
+    height: 90%;
+    background-color: transparent;
+    margin: 2%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    
+}
+
+.parceiro_q{
+    
+   border-radius: 1px; 
+   background-color: transparent;
+   height: 60px;
+   width: 60px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   /*box-shadow:  2px 2px 2px 2px #393E41;*/
+   margin: 5%;
+     
+}
+
+.parceiro_r{
+   
+    border-radius: 1px;
+    background-color: transparent;
+    height: 60px;
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*box-shadow:  2px 2px 2px 2px #393E41;*/
+    margin: 5%;
+}
+
+.parceiro_q:hover{
+    
+   background-color: #3F88C5;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   z-index: 10;
+  /* box-shadow: 1px 1px 1px 1px #F6F7EB;*/
+}
+
+.parceiro_r:hover{
+    
+    background-color: #3F88C5;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 10; 
+    /*box-shadow: 1px 1px 1px 1px #F6F7EB;*/
+}
+
+
+.parceiro_logo_q{
+    
+    height: 80%;
+    width: 80%;
+    margin: 10%;
+    
+}
+
+.parceiro_logo_r{
+    
+    height: 80%;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+   
+    
+}
+
+#container_texto_pag_seguro{
+    
+    margin: 10px;
+    background-color: transparent;
+    width: 70%;
+    color: #F6F7EB;
+    
+    
+    
+}
+
+#container_lista_seguros{
+    
+    background-color: transparent;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+}
+#lista_icone_seguro{
+    
+    margin-top: 2%;
+    background-color: transparent;
+    height: 90%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+
+
+#texto_pagina_seguros{
+    
+    color:#F6F7EB;
+    font-size: 16px;
+    font-family: fonte;
+    
+}
+
+#container_img_quemsomos{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+#img_quemsomos{
+    
+    height: 500px;
+    
+}
+
+
+#container_caixa_texto_quemsomos{
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   height: 90%;
+   width: 90%;
+   background-color: transparent;
+   margin-top: 2.5%;
+   
+}
+
+#caixa_texto_quemsomos{
+    
+    height: 90%;
+    width: 30%;
+    background-color: transparent;
+    
+}
+
+
+
+

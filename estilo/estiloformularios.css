@@ -1,0 +1,110 @@
+
+/*
+
+B'DAZZLED BLUE:#2E4F8F;
+TUFTS BLUE(Degrade):#3F88C5;
+BLACK OLIVE:#393E41;
+PRINCETON ORANGE:#FA7921;
+ISABELLINE:#F6F7EB
+
+*/
+
+@font-face { font-family: fonte; src:url(../Fonts/OpenSans-Regular.ttf); }
+
+html, body{
+    
+    height: 250%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FA7921;
+        
+}
+
+#container{
+    
+    width: 70%;
+    height: 100%;
+    background-color: #F6F7EB;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+#container_titulo_formulario{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+    
+}
+
+#titulo_formulario{
+    
+    font-family: fonte;
+    font-size:36px;
+    color: #393E41;;
+    text-shadow: 0 0 3px #393E41;
+    
+}
+
+#container_formulario{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+   
+}
+
+#formulario{
+   
+    width: 80%;
+    
+}
+
+.input_texto{
+    
+    margin: 5px;
+    
+    
+}
+
+.input_radio{
+    
+    
+    
+    
+}
+
+
+.input_texto,.input_text_area{
+    
+    background-color: #F6F7EB;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #3F88C5;
+    border-width: 0.1px;
+    
+}
+
+.titulo_input{
+    
+    font-family: fonte;
+    color: #393E41;
+    font-size: 12px;
+    margin: 2px;
+    
+    
+}
+
+
+
