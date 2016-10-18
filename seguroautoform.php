@@ -30,7 +30,7 @@ and open the template in the editor.
             
             <section id="container_formulario">
                 
-                <form id="formulario" action="send_contactform.php" method="post" target="_blank">
+                <form id="formulario" action="envio_form/envio_seguroauto_form.php" method="post" target="_blank">
                     
                    
                     <?php include 'dadospessoais_form.php';?>
@@ -69,7 +69,7 @@ and open the template in the editor.
             <input type="radio" class="input_radio" name="relacao_cp" value="Outros" placeholder=""/><p class="titulo_input">Outros<Br></p>
             
             <label for="nome_cp" class="titulo_input">Nome:</label>            
-            <input type="text" class="input_texto" name="" placeholder=""/>
+            <input type="text" class="input_texto" name="nome_cp" placeholder=""/>
             
             <label for="data_nasc_cp" class="titulo_input">Data de Nascimento:</label>            
              <input type="date" class="input_texto" name="data_nasc_cp" placeholder="Data"/>
@@ -91,19 +91,19 @@ and open the template in the editor.
             
             <label for="condutor_18&25" class="titulo_input">Existem condutores entre 18 e 25 anos, residentes com o segurado?</label> <br>
             
-            <input type="radio" class="input_radio" name="condutor_18&25" value="Sim" placeholder=""/><p class="titulo_input">Sim<Br></p>
-            <input type="radio" class="input_radio" name="condutor_18&25" value="Não" placeholder=""/><p class="titulo_input">Não<Br></p>
+            <input type="radio" class="input_radio" name="condutor_dv" value="Sim" placeholder=""/><p class="titulo_input">Sim<Br></p>
+            <input type="radio" class="input_radio" name="condutor_dv" value="Não" placeholder=""/><p class="titulo_input">Não<Br></p>
             
             <label for="condutor_18&25_dirigem" class="titulo_input">Dirigem?</label> <br>
             
-            <input type="radio" class="input_radio" name="condutor_18&25_dirigem" value=Sim placeholder=""/><p class="titulo_input">Sim<Br></p>
-            <input type="radio" class="input_radio" name="condutor_18&25_dirigem" value=Não placeholder=""/><p class="titulo_input">Não<Br></p>
+            <input type="radio" class="input_radio" name="condutor_dv_dirigem" value=Sim placeholder=""/><p class="titulo_input">Sim<Br></p>
+            <input type="radio" class="input_radio" name="condutor_dv_dirigem" value=Não placeholder=""/><p class="titulo_input">Não<Br></p>
             
             <label for="condutor_18&25_dirigem" class="titulo_input">Qual sexo?</label> <br>
             
-            <input type="radio" class="input_radio" name="condutor_18&25_sexo" value=Sim placeholder=""/><p class="titulo_input">Masculino<Br></p>
-            <input type="radio" class="input_radio" name="condutor_18&25_sexo" value=Não placeholder=""/><p class="titulo_input">Feminino<Br></p>
-            <input type="radio" class="input_radio" name="condutor_18&25_sexo" value=Ambos placeholder=""/><p class="titulo_input">Há condutores de ambos os sexos morando com o segurado<Br></p>
+            <input type="radio" class="input_radio" name="condutor_dv_sexo" value=Sim placeholder=""/><p class="titulo_input">Masculino<Br></p>
+            <input type="radio" class="input_radio" name="condutor_dv_sexo" value=Não placeholder=""/><p class="titulo_input">Feminino<Br></p>
+            <input type="radio" class="input_radio" name="condutor_dv_sexo" value=Ambos placeholder=""/><p class="titulo_input">Há condutores de ambos os sexos morando com o segurado<Br></p>
             
             
             
@@ -160,7 +160,7 @@ and open the template in the editor.
             <input type="text" class="input_texto" name="veiculo" placeholder=""/>
             
             <label for="ano/modelo" class="titulo_input">Ano/Modelo</label>            
-            <input type="text" class="input_texto" name="ano/modelo" placeholder=""/>
+            <input type="text" class="input_texto" name="ano_modelo" placeholder=""/>
             
             <label for="placa" class="titulo_input">Placa</label>            
             <input type="text" class="input_texto" name="placa" placeholder=""/>

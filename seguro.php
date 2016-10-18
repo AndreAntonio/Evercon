@@ -91,10 +91,10 @@ and open the template in the editor.
                             <a id = container_seguro_empresarial href=""> <img  id = "icone_seguro_empresarial" src="img/seguroempresarial_icone.png">
                 <p id="nome_seguro_empresarial">Equipamentos Portateis</p>
                 </a>
-                            <a id = container_seguro_transporte href=""> <img  id = "icone_seguro_transporte" src="img/segurotransporte_icone.png">
+                                <a id = container_seguro_transporte href="seguro_fianca.php"> <img  id = "icone_seguro_transporte" src="img/segurotransporte_icone.png">
                 <p id="nome_seguro_transporte">Fiança Locatícia</p>
                             </a>
-                            <a id = container_seguro_svp href=""> <img  id = "icone_seguro_svp" src="img/segurosvp_icone.png">
+                                <a id = container_seguro_svp href="seguro_condominio.php"> <img  id = "icone_seguro_svp" src="img/segurosvp_icone.png">
                 <p id="nome_seguro_svp" >Seguro de Condomínio</p>
                 </a>
             

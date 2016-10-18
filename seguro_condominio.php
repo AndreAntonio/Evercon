@@ -12,7 +12,7 @@ and open the template in the editor.
         <script src="js/script.js" type="text/javascript"></script>
         <link href="estilo/estilo.css" rel="stylesheet" type="text/css"/>
         <meta charset="UTF-8">
-        <title> Beneficios </title>
+        <title> Seguro Condomínio </title>
     </head>
     <body>
         
@@ -28,11 +28,6 @@ and open the template in the editor.
         
 	<section id="main1">
             
-            <div id="container_logos_beneficios">
-                
-            </div>
-            
-            
         <nav>
             
             <?php include 'menu_1.php'; ?>
@@ -43,63 +38,70 @@ and open the template in the editor.
 		<section id="main2">
                     <aside>
                         
-                        <div id="container_texto_beneficios">
-                            
-                            
-                        </div>             
-                       
-                                        
-                       
+                             
+                        
+                           
                         
                     </aside>
                     <section id="main_aside">
-                        
-         <div id = "container_lista_seguros">
+                       
                         
                            
-                            <div id="lista_icone_seguro">
-             
-                                <a id = container_seguro_auto href="worksite_affinity.php"><img  id = "icone_seguro_auto" src="img/seguroauto_icone.png">
-                    <p id="nome_seguro_auto">Worksite/Affinity</p>
-                </a>
-                            <a id = container_seguro_residencia href=""> <img  id= "icone_seguro_residencia" src="img/segurores_icone.png">
-                <p id="nome_seguro_residencia">Seguro Residencia</p>
-                </a>
-                                <a id = container_seguro_empresarial href="seguro_empresarial.php"> <img  id = "icone_seguro_empresarial" src="img/seguroempresarial_icone.png">
-                <p id="nome_seguro_empresarial">Seguro Empresarial</p>
-                </a>
-                            <a id = container_seguro_transporte href=""> <img  id = "icone_seguro_transporte" src="img/segurotransporte_icone.png">
-                <p id="nome_seguro_transporte">Seguro Transporte</p>
-                            </a>
-                                <a id = container_seguro_svp href="seguro_saude.php"> <img  id = "icone_seguro_svp" src="img/segurosvp_icone.png">
-                <p id="nome_seguro_svp" >Seguro Saúde</p>
-                </a>
-            
-                            </div>                
+                        
+                        <p id="texto_pagina_seguros">
+                            
+                            <br>
+                         
+                            Os condomínios são obrigados por lei a estarem segurados contra incêndio ou sinistros que causem a destruição total ou parcial das unidades, ficando o condomínio infrator sujeito a multas mensais conforme a lei vigente.
+ <br>
+ <br>
+Evercon Consultoria em parceria com as mais conceituadas seguradoras do mercado oferece opções de seguro para condomínios residenciais, comerciais, mistos, de escritórios e/ou consultórios, como também flats e apart-hóteis.
+ <br>
+ <br>
+Além de ser simples de contratar, ele é completo, porque oferece coberturas que protegem o condomínio, o sindico e os funcionário, além de serviços de emergência gratuito. Contém varias opções de coberturas de livre escolha, obtidas através de uma apólice única e simplificada.
+ <br><br>
+Coberturas
+ <br><br>
+Básica
+ <br><br>
+Incêndio, queda de raio e explosão.
+ <br><br>
+Adicionais
+ <br><br>
+Danos elétricos;
+ <br><br>
+Vendaval/Granizo... e impacto de veículos;
+ <br><br>
+Quebra de vidros, anúncios luminosos;
+ <br><br>
+Desmoronamento total ou parcial;
+ <br><br>
+Roubo ou furto qualificado;
+ <br><br>
+Responsabilidade civil do condomínio mais Sindico;
+ <br><br>
+Responsabilidade civil guarda de veículos;
+ <br><br>
+Alagamento e inundação;
+ <br><br>
+Vida em grupo - funcionários;
+ <br><br>
+Incêndio, raio e explosão de conteúdo de apartamentos residenciais.
+ <br><br>
+Serviços E Vantagens
+ <br><br>
+Equipe especializada em análise de riscos;
+ <br><br>
+Desconto progressivo – quando mais coberturas contratadas maior o desconto sobre o valor do seguros;
+ <br><br>
+Desconto de Experiência – concedido a cada renovação anual consecutiva sem ocorrência de sinistro;
+ <br><br>
+Profissionais preparados para auxiliar e orientar os clientes no processo de sinistro, com o objetivo de garantir uma rápida regulação.
+     <br><br>                       
+                         
+                        </p>
                         
                 
-                
-                      
-                        
-                        
-                        
-                        <script>
-var slideIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("imagem_produto");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none"; 
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
-    setTimeout(carousel, 5000); // Change image every 2 seconds
-}
-</script>
-                        
                         
                     </section>
 		</section>

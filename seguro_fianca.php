@@ -12,7 +12,7 @@ and open the template in the editor.
         <script src="js/script.js" type="text/javascript"></script>
         <link href="estilo/estilo.css" rel="stylesheet" type="text/css"/>
         <meta charset="UTF-8">
-        <title> Beneficios </title>
+        <title> Seguro Fiança </title>
     </head>
     <body>
         
@@ -28,11 +28,6 @@ and open the template in the editor.
         
 	<section id="main1">
             
-            <div id="container_logos_beneficios">
-                
-            </div>
-            
-            
         <nav>
             
             <?php include 'menu_1.php'; ?>
@@ -43,63 +38,45 @@ and open the template in the editor.
 		<section id="main2">
                     <aside>
                         
-                        <div id="container_texto_beneficios">
-                            
-                            
-                        </div>             
-                       
-                                        
-                       
+                             
+                        
+                           
                         
                     </aside>
                     <section id="main_aside">
-                        
-         <div id = "container_lista_seguros">
+                       
                         
                            
-                            <div id="lista_icone_seguro">
-             
-                                <a id = container_seguro_auto href="worksite_affinity.php"><img  id = "icone_seguro_auto" src="img/seguroauto_icone.png">
-                    <p id="nome_seguro_auto">Worksite/Affinity</p>
-                </a>
-                            <a id = container_seguro_residencia href=""> <img  id= "icone_seguro_residencia" src="img/segurores_icone.png">
-                <p id="nome_seguro_residencia">Seguro Residencia</p>
-                </a>
-                                <a id = container_seguro_empresarial href="seguro_empresarial.php"> <img  id = "icone_seguro_empresarial" src="img/seguroempresarial_icone.png">
-                <p id="nome_seguro_empresarial">Seguro Empresarial</p>
-                </a>
-                            <a id = container_seguro_transporte href=""> <img  id = "icone_seguro_transporte" src="img/segurotransporte_icone.png">
-                <p id="nome_seguro_transporte">Seguro Transporte</p>
-                            </a>
-                                <a id = container_seguro_svp href="seguro_saude.php"> <img  id = "icone_seguro_svp" src="img/segurosvp_icone.png">
-                <p id="nome_seguro_svp" >Seguro Saúde</p>
-                </a>
-            
-                            </div>                
                         
-                
-                
-                      
-                        
-                        
-                        
-                        <script>
-var slideIndex = 0;
-carousel();
+                        <p id="texto_pagina_seguros">
+                            
+                         Porto Seguro:<br>
+ <br>
+ <br>
+Prático e eficiente, o Seguro Fiança substitui a exigência de fiadores. Garante o pagamento em dia dos aluguéis e encargos vencidos.
+ <br>
+ <br>
+O Seguro Fiança é um produto destinado a facilitar a vida de inquilinos, proprietários de imóveis e imobiliárias, substituindo com vantagens o fiador. Para eliminar futuras preocupações, você pode contar com um seguro prático e eficiente que substitui com vantagens a exigência de fiadores ou a prestação de caução nos contratos de locação. É um seguro que além de garantir o pagamento em dia dos aluguéis e encargos vencidos e não pagos, representa a certeza de indenização imediata na data do respectivo aluguel.
+ <br>
+ <br>
+Garantido por lei conforme Art. 37, Item III da Lei n 8.245 de 18/10/91 da atual lei do inquilinato, é a melhor opção de prestar garantia a contratos de locação de imóveis, tem por objetivo substituir a figura do fiador, a fiança bancária ou o pagamento antecipado de 3 meses de aluguel, podendo ser aplicado em todos os contratos de locação residencial, não residencial, comercial e industrial, celebrados entre pessoas físicas e pessoas jurídicas. Basta enviar o cadastro do candidato a inquilino para análise e observar as condições próprias para a contratação.
+ <br>
+ <br>
+Vantagens:
+ <br>
+ <br>
+Garante ao proprietário o pagamento do aluguel e taxas contratuais na inadimplência do inquilino;
+ <br>
+ <br>
+Substitui com vantagens o fiador;
+<br>
+<br>
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("imagem_produto");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none"; 
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
-    setTimeout(carousel, 5000); // Change image every 2 seconds
-}
-</script>
+Possibilidade de pagamento parcelado do custo do seguro.             
+    <br>                        
+                        </p>
                         
+                
                         
                     </section>
 		</section>

@@ -56,8 +56,8 @@ and open the template in the editor.
             <label for="bairro_imovel" class="titulo_input">Bairro</label>            
             <input type="text" class="input_texto" name="bairro_imovel" placeholder=""/>
             
-            <label for="_imovel" class="titulo_input">CEP</label>            
-            <input type="text" class="input_texto" name="_imovel" placeholder=""/>
+            <label for="cep_imovel" class="titulo_input">CEP</label>            
+            <input type="text" class="input_texto" name="cep_imovel" placeholder=""/>
             
             
             <label for="tipo_imóvel" class="titulo_input"></label>Tipo de imóvel<br>
@@ -81,15 +81,15 @@ and open the template in the editor.
             <input type="radio" class="input_radio" name="tipo_telha" value="ceramica" placeholder=""/>Ceramica<Br>
             <input type="radio" class="input_radio" name="tipo_telha" value="fibrocimento" placeholder=""/>Fibro Cimento<Br>
             
-            <label for="condominiofechado?" class="titulo_input"></label>Condominio Fechado<br>
+            <label for="condominiofechado" class="titulo_input"></label>Condominio Fechado<br>
             
-            <input type="radio" class="input_radio" name="condominiofechado?" value="Sim" placeholder=""/>Sim<Br>
-            <input type="radio" class="input_radio" name="condominiofechado?" value="Não" placeholder=""/>Não<Br>
+            <input type="radio" class="input_radio" name="condominiofechado" value="Sim" placeholder=""/>Sim<Br>
+            <input type="radio" class="input_radio" name="condominiofechado" value="Não" placeholder=""/>Não<Br>
             
             <label for="alarme?" class="titulo_input"></label>Alarme<br>
             
-            <input type="radio" class="input_radio" name="alarme?" value="Sim" placeholder=""/>Sim<Br>
-            <input type="radio" class="input_radio" name="alarme?" value="Não" placeholder=""/>Não<Br>
+            <input type="radio" class="input_radio" name="alarme" value="Sim" placeholder=""/>Sim<Br>
+            <input type="radio" class="input_radio" name="alarme" value="Não" placeholder=""/>Não<Br>
  
             <p>Coberturas : Determine o valor em reais para cada cobertura desejada</p>
             
